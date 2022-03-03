@@ -16,6 +16,12 @@ body {
     justify-content: center;
 }
 
+h2 {
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
 .quiz-container {
     background-color: #fff;
     border-radius: 10px;
@@ -34,8 +40,17 @@ ul {
     padding: 0;
 }
 
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
 button {
-    background-color: #8e44ad;
+    background-color: rgb(0,117,255);
     color: #fff;
     border: none;
     display: block;
@@ -46,5 +61,5 @@ button {
 }
 
 button:hover {
-    background-color: #732d91;
+    background-color: rgb(0,100,200);
 }

@@ -8,33 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
+    <div class="quiz-container" id="quiz">
         <div class="quiz-header">
-            <h2>Question Text</h2>
+            <h2 id="question">Question Text</h2>
             <ul>
                 <li>
-                    <input type="radio" id="a" name="answer">
-                    <label for="a">Question</label>
+                    <input type="radio" id="a" name="answer" class="answer">
+                    <label id="text-a" for="a">Question</label>
                 </li>
                 <li>
-                    <input type="radio" id="a" name="answer">
-                    <label for="a">Question</label>
+                    <input type="radio" id="b" name="answer" class="answer">
+                    <label id="text-b" for="b">Question</label>
                 </li>
                 <li>
-                    <input type="radio" id="a" name="answer">
-                    <label for="a">Question</label>
+                    <input type="radio" id="c" name="answer" class="answer">
+                    <label id="text-c" for="c">Question</label>
                 </li>
                 <li>
-                    <input type="radio" id="a" name="answer">
-                    <label for="a">Question</label>
-                </li>
-                <li>
-                    <input type="radio" id="a" name="answer">
-                    <label for="a">Question</label>
+                    <input type="radio" id="d" name="answer" class="answer">
+                    <label id="text-d" for="d">Question</label>
                 </li>
             </ul>
         </div>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
     </div>
     <script src="main.js"></script>
 </body>
